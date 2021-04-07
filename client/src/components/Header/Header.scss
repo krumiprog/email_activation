@@ -1,0 +1,28 @@
+.header__wrapper {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  &__link {
+    font-size: 2rem;
+    text-decoration: none;
+  }
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+
+  &__item {
+    margin-left: 20px;
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+}
